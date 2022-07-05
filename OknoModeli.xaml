@@ -1,0 +1,27 @@
+﻿<Window x:Class="NET_INIS4_PR2._2_Z4.OknoModeli"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NET_INIS4_PR2._2_Z4"
+        mc:Ignorable="d"
+        Title="OknoModeli" Height="450" Width="260">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <ListBox>
+            <DataGrid Name="Modele" ItemsSource="{Binding XPath=Pojazdy/Pojazd}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header = "ID" Binding = "{Binding XPath=@id}" />
+                    <DataGridTextColumn Header = "Model" Binding = "{Binding XPath=Model}" />
+                    <DataGridTextColumn Header = "KrajProdukcji" Binding = "{Binding XPath=KrajProdukcji}" />
+                    <DataGridTextColumn Header = "RokProdukcji" Binding = "{Binding XPath=RokProdukcji}" />
+                </DataGrid.Columns>
+        </DataGrid>
+        </ListBox>
+
+
+    </Grid>
+</Window>

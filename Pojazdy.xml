@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GrupyPojazdow>
+	<Grupa>
+		<Nazwa>Samochody Osobowe</Nazwa>
+		<GrupyMarek>
+			<Marka nazwa="BMW">
+			<Koncern>BMW</Koncern>
+				<Pojazdy>
+					<Pojazd id="1">
+						<Model>Seria 1</Model>
+						<KrajProdukcji>Niemcy</KrajProdukcji>
+						<RokProdukcji>2002</RokProdukcji>
+					</Pojazd>
+					<Pojazd id="2">
+						<Model>Seria 2</Model>
+						<KrajProdukcji>Niemcy</KrajProdukcji>
+						<RokProdukcji>2004</RokProdukcji>
+					</Pojazd>
+					<Pojazd id="3">
+						<Model>M3</Model>
+						<KrajProdukcji>Niemcy</KrajProdukcji>
+						<RokProdukcji>2002</RokProdukcji>
+					</Pojazd>
+				</Pojazdy>
+			</Marka>
+			<Marka nazwa="VolksWagen">
+			<Koncern>VolksWagen </Koncern>
+				<Pojazdy>
+			<Pojazd id="10">
+				<Model>Golf</Model>
+				<KrajProdukcji>Niemcy</KrajProdukcji>
+				<RokProdukcji>2000</RokProdukcji>
+			</Pojazd>
+				</Pojazdy>
+			</Marka>
+			<Marka nazwa="Opel">			
+			<Koncern>GM </Koncern>
+				<Pojazdy>
+			<Pojazd id="20">
+				<Model>Astra</Model>
+				<KrajProdukcji>Niemcy</KrajProdukcji>
+				<RokProdukcji>2009</RokProdukcji>
+			</Pojazd>
+				</Pojazdy>
+			</Marka>
+			<Marka nazwa="Renault">
+				<Koncern>Renault </Koncern>
+				<Pojazdy>
+				<Pojazd id="30">
+					<Model>Clio</Model>
+					<KrajProdukcji>Francja</KrajProdukcji>
+					<RokProdukcji>2004</RokProdukcji>
+				</Pojazd>
+				</Pojazdy>
+			</Marka>
+		</GrupyMarek>
+	</Grupa>
+	<Grupa>
+		<Nazwa>Motocykle</Nazwa>
+		<GrupyMarek>
+				<Marka nazwa="Ducati">
+					<Koncern>VolksWagen</Koncern>
+					<Pojazdy>
+			<Pojazd id="200">
+				<Model>Streetfighter</Model>
+				<KrajProdukcji>Włochy</KrajProdukcji>
+				<RokProdukcji>2008</RokProdukcji>
+			</Pojazd>
+		</Pojazdy>
+	</Marka>
+			<Marka nazwa="Junak">
+				<Koncern>Junak</Koncern>
+				<Pojazdy>
+					<Pojazd id="210">
+						<Model>M14</Model>
+						<KrajProdukcji>Polska</KrajProdukcji>
+						<RokProdukcji>2021</RokProdukcji>
+					</Pojazd>
+				</Pojazdy>
+			</Marka>
+	</GrupyMarek>
+	</Grupa>
+</GrupyPojazdow>
